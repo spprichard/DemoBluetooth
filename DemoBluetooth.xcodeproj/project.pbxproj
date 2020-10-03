@@ -13,6 +13,7 @@
 		B89166E52527EECB00C56E39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89166E42527EECB00C56E39 /* Preview Assets.xcassets */; };
 		B89166F02527EECB00C56E39 /* DemoBluetoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89166EF2527EECB00C56E39 /* DemoBluetoothTests.swift */; };
 		B89166FB2527EECB00C56E39 /* DemoBluetoothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89166FA2527EECB00C56E39 /* DemoBluetoothUITests.swift */; };
+		B891670C2527EF2300C56E39 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891670B2527EF2300C56E39 /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B89166F62527EECB00C56E39 /* DemoBluetoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoBluetoothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89166FA2527EECB00C56E39 /* DemoBluetoothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBluetoothUITests.swift; sourceTree = "<group>"; };
 		B89166FC2527EECB00C56E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B891670B2527EF2300C56E39 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B89166DD2527EEC800C56E39 /* DemoBluetoothApp.swift */,
 				B89166DF2527EEC800C56E39 /* ContentView.swift */,
+				B891670B2527EF2300C56E39 /* BLEManager.swift */,
 				B89166E12527EECB00C56E39 /* Assets.xcassets */,
 				B89166E62527EECB00C56E39 /* Info.plist */,
 				B89166E32527EECB00C56E39 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B89166E02527EEC800C56E39 /* ContentView.swift in Sources */,
+				B891670C2527EF2300C56E39 /* BLEManager.swift in Sources */,
 				B89166DE2527EEC800C56E39 /* DemoBluetoothApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
